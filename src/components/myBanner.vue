@@ -47,7 +47,7 @@ export default {
 
 .banner .bannerBg {
     width: 100%;
-    background: url(../assets/image/bg.jpg) no-repeat center center;
+    background: url(/static/image/bg.jpg) no-repeat center center;
     background-size: cover;
     transform: translateY(0px);
     -webkit-transition: all 2s cubic-bezier(0.215, 0.61, 0.355, 1) .4s;
@@ -72,7 +72,7 @@ export default {
     -webkit-transform: translate3d(-50%,-50%,0);
     transform: translate3d(-50%,-50%,0);
     margin-left: -10%;
-    background: url(../assets/image/titleBG.png) no-repeat center center;
+    background: url(/static/image/titleBg.png) no-repeat center center;
     background-size: contain;
 }
 .banner .title.small{

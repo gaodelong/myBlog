@@ -18,7 +18,6 @@
                             <p class="article_foot">
                                 <span class="tag">
                                     <i class="tag_type">{{Object.values(item.tag_type).join('、')}}</i>
-                                    <!-- <i class="tag_type tag_js">{{item.tag_type}}</i> -->
                                 </span>
                                 <span class="read_more fr">阅读全文</span>
                             </p>
@@ -48,7 +47,7 @@ export default {
                     img: "http://ouvwmmux2.bkt.clouddn.com/js.jpg",
                     article_title: "Vue入门学习1",
                     date: "2018-5-1",
-                    description: "Vue是一套用于构建用户界面的渐进式框架1111",
+                    description: "Vue是一套用于构建用户界面的渐进式框架1",
                     tag_type:  {
                         tag_html: "js"
                     },
@@ -69,7 +68,7 @@ export default {
                     date: "2018-5-3",
                     description: "Vue是一套用于构建用户界面的渐进式框架3",
                     tag_type: {
-                        tag_webpack: "tag_webpack"
+                        tag_webpack: "js"
                     }
                 },
                 {
@@ -101,18 +100,55 @@ export default {
                 },
                 {
                     img: "http://ouvwmmux2.bkt.clouddn.com/js.jpg",
-                    article_title: "Vue入门学习7",
-                    date: "2018-5-7",
-                    description: "Vue是一套用于构建用户界面的渐进式框架7",
-                    tag_type: {
-                        tag_vue: "vue"
+                    article_title: "Vue入门学习1",
+                    date: "2018-5-1",
+                    description: "Vue是一套用于构建用户界面的渐进式框架1",
+                    tag_type:  {
+                        tag_html: "js"
+                    },
+                     
+                },
+                {
+                    img: "http://ouvwmmux2.bkt.clouddn.com/js.jpg",
+                    article_title: "Vue入门学习2",
+                    date: "2018-5-2",
+                    description: "Vue是一套用于构建用户界面的渐进式框架2",
+                    tag_type:{
+                        tag_html: "html",
                     }
                 },
                 {
                     img: "http://ouvwmmux2.bkt.clouddn.com/js.jpg",
-                    article_title: "Vue入门学习8",
-                    date: "2018-5-8",
-                    description: "Vue是一套用于构建用户界面的渐进式框架8",
+                    article_title: "Vue入门学习3",
+                    date: "2018-5-3",
+                    description: "Vue是一套用于构建用户界面的渐进式框架3",
+                    tag_type: {
+                        tag_webpack: "js"
+                    }
+                },
+                {
+                    img: "http://ouvwmmux2.bkt.clouddn.com/js.jpg",
+                    article_title: "Vue入门学习4",
+                    date: "2018-5-4",
+                    description: "Vue是一套用于构建用户界面的渐进式框架4",
+                    tag_type: {
+                        tag_reprint: "转载"
+                    }
+                },
+                {
+                    img: "http://ouvwmmux2.bkt.clouddn.com/js.jpg",
+                    article_title: "Vue入门学习5",
+                    date: "2018-5-5",
+                    description: "Vue是一套用于构建用户界面的渐进式框架5",
+                    tag_type: {
+                        tag_other: "其他"
+                    }
+                },
+                {
+                    img: "http://ouvwmmux2.bkt.clouddn.com/js.jpg",
+                    article_title: "Vue入门学习6",
+                    date: "2018-5-6",
+                    description: "Vue是一套用于构建用户界面的渐进式框架6",
                     tag_type: {
                         tag_vue: "vue"
                     }
@@ -198,8 +234,8 @@ export default {
         height: auto;
         /* height: 130px; */
         width: 100%;
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 300px;
+        max-height: 155px;
         border-radius: inherit;
     }  
     .news .content .el-col a.card .box {
@@ -223,6 +259,7 @@ export default {
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
+        height: 32px;
     }
     .news .content .el-col a.card .box p.article_title{
         width: 90%;
