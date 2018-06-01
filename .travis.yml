@@ -19,7 +19,7 @@ deploy:
   local-dir: dist
   target-branch: master
   on:
-    branch: sgh-pages 
+    branch: gh-pages 
 
 branches:
   only:
