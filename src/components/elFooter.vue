@@ -8,7 +8,7 @@
                 </li>
                 <li>
                     <label>邮箱：</label>
-                    <span>delong@126.cn</span>
+                    <span>delonggao@126.com</span>
                 </li>
             </ul>
         </div>

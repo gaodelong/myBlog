@@ -1,8 +1,8 @@
 /*
  * @Author: gaodelong 
  * @Date: 2018-05-15 15:03:23 
- * @Last Modified by:   gaodelong 
- * @Last Modified time: 2018-05-15 15:03:23 
+ * @Last Modified by: gaodelong
+ * @Last Modified time: 2018-06-14 10:52:12
  */
 
 .content .el-scrollbar__wrap {
@@ -16,3 +16,21 @@
   font-size: 34px !important;
 }
 
+
+.el-pagination button {
+  min-width: 2em;
+  font-size: 12px;
+  height: 1.8em;
+  line-height: 1.8em;
+}
+
+.el-pagination .btn-prev .el-icon {
+  font-size: 12px;
+}
+
+.el-pager li {
+  font-size: 12px;
+  min-width: 2em;
+  height: 1.8em;
+  line-height: 1.8em;
+}

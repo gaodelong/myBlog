@@ -74,4 +74,6 @@ export default {
 .main .el-main{
   padding: 1.8em 0;
 }
+
+
 </style>

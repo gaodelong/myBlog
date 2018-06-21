@@ -5,7 +5,7 @@
         <p>工作学习中整理的些项目</p>
     </div>
     <div class="content">
-        <el-carousel indicator-position="outside" :interval="10000"  trigger="click">
+        <el-carousel indicator-position="outside" :interval="10000"  :autoplay="false"  trigger="click">
             <el-carousel-item v-for="(item,index) in listData" :key="index">
                 <!-- {{item}} -->
                 <el-row :gutter="20" class="workList">
@@ -38,18 +38,18 @@ export default {
             workTotals: [
                 {
                     list: [
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目1"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目2"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目3"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目4"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目5"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目6"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目7"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目8"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目9"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目10"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目11"},
-                        {img: "http://designzhangyu.com/uploadfile/2015/0623/20150623050946259.jpg",titleTxt: "项目12"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目1"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目2"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目3"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目4"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目5"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目6"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目7"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目8"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目9"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目10"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目11"},
+                        {img: "http://img.delongblog.cn/1.jpg",titleTxt: "项目12"},
                     ]
                 }
                 
@@ -154,8 +154,9 @@ export default {
     margin: 0;
 }
 .works {
-    margin-top: 3em;
-    padding: 0 4.16666em 8em;
+    margin-top: 2em;
+    padding: 0 2em;
+    /* padding: 0 4.16666em 8em; */
     background: #212325;
 }
 
@@ -164,7 +165,7 @@ export default {
 }
 
 .works .head h2 {
-    font-size: 4em;
+    font-size: 3em;
     color: #42B8F1;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -193,13 +194,15 @@ export default {
 .works .content .workList .el-col a.workLink{
     position: relative;
     display: block;
-    width: 264px;
-    height: 180px;
+    width: 100%;
+    height: 100%;
+    /* width: 264px;
+    height: 180px; */
 }
 .works .content .workList .el-col .workLink img{
     display: block;
-    width: 264px;
-    height: 180px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 .works .content .workList .el-col .workLink .imgTitle{
@@ -208,7 +211,7 @@ export default {
     left: 0;
     height: 2em;
     line-height: 2em;
-    width: 264px;
+    width: 100%;
     text-align: center;
     background: #42B8F1;
     color: #fff;

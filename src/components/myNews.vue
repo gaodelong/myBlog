@@ -189,13 +189,13 @@ export default {
 
 <style scoped>
     .news{
-        padding: 0 4.16666em;
+        padding: 0 2em;
     }
     .news .head{
-        padding-top: 3em;
+        padding-top: 2em;
     }
     .news .head h2{
-        font-size: 4em;
+        font-size: 3em;
         color: #42B8F1;
         user-select: none;
     }
@@ -234,7 +234,7 @@ export default {
         height: auto;
         /* height: 130px; */
         width: 100%;
-        max-width: 300px;
+        /* max-width: 300px; */
         max-height: 155px;
         border-radius: inherit;
     }  
@@ -259,19 +259,21 @@ export default {
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        height: 32px;
+        /* height: 32px; */
     }
     .news .content .el-col a.card .box p.article_title{
-        width: 90%;
+        /* width: 90%; */
         font-weight: 700;
         font-size: 1.38571429em;
         margin-top: -.21425em;
-        line-height: 1.38571429em;
+        height: 1.3em;
     }
     .news .content .el-col a.card .box p.date{
         margin-top: 0.3em;
-        font-size: 1em;
+        font-size: 1.2em;
         color: #656565;
+        height: 1.3em;
+
     }
     .news .content .el-col a.card .box p.description{
         width: 100%;
@@ -281,14 +283,16 @@ export default {
     }
     .news .content .el-col a.card .box p.article_foot{
         padding-top: 1em;
+        height: 3em;
     }
     .news .content .el-col a.card .box p.article_foot span{
         display: inline-block;
-        vertical-align: -webkit-baseline-middle;
+        vertical-align: top;
         font-size: 1.2em;
     }    
     .news .content .el-col a.card .box p.article_foot .tag_type{
         display: inline-block;
+        vertical-align: top;
         padding: 0.07em 0.597em;
         border-radius: 0.2em;
         /* color: #fff; */
